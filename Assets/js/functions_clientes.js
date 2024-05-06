@@ -65,7 +65,6 @@ document.addEventListener('DOMContentLoaded', function(){
             let strNomFical = document.querySelector('#txtNombreFiscal').value;
             let strDirFiscal = document.querySelector('#txtDirFiscal').value;
             let strPassword = document.querySelector('#txtPassword').value;
-
             if(strIdentificacion == '' || strApellido == '' || strNombre == '' || strEmail == '' || intTelefono == '' || strNit == '' || strDirFiscal == '' || strNomFical=='' )
             {
                 swal("Atención", "Todos los campos son obligatorios." , "error");

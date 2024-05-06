@@ -1,5 +1,5 @@
 <?php 
-	const BASE_URL = "http://localhost/tienda_virtual";
+	const BASE_URL = "http://localhost/JHOJHO";
 	//const BASE_URL = "https://abelosh.com/tiendavirtual";
 
 	//Zona horaria
@@ -13,7 +13,7 @@
 	const DB_CHARSET = "utf8";
 
 	//Para envío de correo
-	const ENVIRONMENT = 1; // Local: 0, Produccón: 1;
+	const ENVIRONMENT = 0; // Local: 0, Produccón: 1;
 
 	//Deliminadores decimal y millar Ej. 24,1989.00
 	const SPD = ".";
@@ -34,22 +34,22 @@
 	//const SECRET = "";
 
 	//Datos envio de correo
-	const NOMBRE_REMITENTE = "Tienda Virtual";
+	const NOMBRE_REMITENTE = "JHOJHO";
 	const EMAIL_REMITENTE = "no-reply@abelosh.com";
-	const NOMBRE_EMPESA = "Tienda Virtual";
+	const NOMBRE_EMPESA = "JHOJHO";
 	const WEB_EMPRESA = "";
 
 	const DESCRIPCION = "Pensando en ti y en lo que te mereces";
-	const SHAREDHASH = "TiendaVirtual";
+	const SHAREDHASH = "JHOJHO";
 
 	//Datos Empresa
 	const DIRECCION = "Avenida los fundadores calle 13, Colombia";
-	const TELEMPRESA = "+(502)78787845";
-	const WHATSAPP = "+50278787845";
-	const EMAIL_EMPRESA = "info@abelosh.com";
-	const EMAIL_PEDIDOS = "info@abelosh.com"; 
-	const EMAIL_SUSCRIPCION = "info@abelosh.com";
-	const EMAIL_CONTACTO = "info@abelosh.com";
+	const TELEMPRESA = "+(57)3123000887";
+	const WHATSAPP = "+573123000887";
+	const EMAIL_EMPRESA = "jhojho6201@gmail.com";
+	const EMAIL_PEDIDOS = "jhojho6201@gmail.com"; 
+	const EMAIL_SUSCRIPCION = "jhojho6201@gmail.com";
+	const EMAIL_CONTACTO = "jhojho6201@gmail.com";
 
 	const CAT_SLIDER = "1,2,3";
 	const CAT_BANNER = "4,5,6";
