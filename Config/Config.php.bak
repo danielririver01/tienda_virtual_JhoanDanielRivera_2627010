@@ -25,9 +25,9 @@
 
 	//Api PayPal
 	//SANDBOX PAYPAL
-	//const URLPAYPAL = "https://api-m.sandbox.paypal.com";
-	//const IDCLIENTE = "";
-	//const SECRET = "";
+	const URLPAYPAL = "https://api-m.sandbox.paypal.com";
+	const IDCLIENTE = "Aakr2XMFvBHKwCJfZdHjcv-RaSObQnU_-B4iXr4t4nF9w9wWMkZIRaRKK08LIMcwWjM56u2pJ8DOKKp_";
+	const SECRET = "EGJ13lh1rHp5IyeX0uYCsmISB-6_1UL_jA9B1ws1S2jjQGpnIpz_EfBE7cstn2bicUzJ4I8k3FrdyOnP";
 	//LIVE PAYPAL
 	//const URLPAYPAL = "https://api-m.paypal.com";
 	//const IDCLIENTE = "";
@@ -89,7 +89,7 @@
 	const RSUPERVISOR = 2;
 	const RCLIENTES = 3;
 
-	const STATUS = array('Completo','Aprobado','Cancelado','Pendiente','Entregado');
+	const STATUS = array('Completo','Aprobado','Cancelado','Reembolsado','Pendiente','Entregado');
 
 	//Productos por página
 	const CANTPORDHOME = 8;
